@@ -9,6 +9,7 @@ import ftplib
 import os
 
 
+
 #setup
 def setup():
     global picam,Past_Time,ftp
@@ -72,15 +73,15 @@ def move_image(name):
     #add row on mySQL with location and file name - server should deal with this when it recives name
 
 def ping(Queue):
-    '''host="192.168.1.25" # Server IP
+    host="192.168.1.25" # Server IP
     port=50000 #Server port
-    server=socket.socket(socket.AF_INET, socket.SOCK_STREAM)'''
+    server=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     Local_Queue=[]
-    '''try:
+    try:
         server.connect((host,port))
     except:
         #GPIO.output(18,GPIO.HIGH)
-        pass'''
+        pass
     while True:
         time.sleep(0.1)
         try:
@@ -90,7 +91,7 @@ def ping(Queue):
         if len(Local_Queue)!=0:
             name=Local_Queue[0]
             concurrent.futures.ThreadPoolExecutor().submit(move_image,name=Local_Queue.pop(0))
-            '''server.send(name.encode("ascii"))
+            server.send(name.encode("ascii"))
             if server.recv(1024).decode("ascii")==name:
                 concurrent.futures.ThreadPoolExecutor().submit(move_image,name=Local_Queue.pop(0))
             else:
@@ -102,7 +103,7 @@ def ping(Queue):
                     #GPIO.output(18,GPIO.HIGH)
                     pass
         else:
-            time.sleep(0.5)'''
+            time.sleep(0.5)
 
 
 

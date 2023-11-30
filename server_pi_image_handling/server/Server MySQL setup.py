@@ -1,2 +1,0 @@
-import mysql
-connection=mysql.connector

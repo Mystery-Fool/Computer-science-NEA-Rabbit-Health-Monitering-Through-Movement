@@ -7,6 +7,7 @@ import time
 import os
 import multiprocessing
 from server_code_splicing import stitch
+from Server_code_MySQL import sql_server_handling
 
 class Server_Communication():
     def __init__(self):
@@ -51,17 +52,22 @@ class Server_Communication():
 #multiprocessed - could be in the stitching code file
 def stitch(queue):
     stitcher=stitch()
+    SQL=sql_server_handling()
+    SQL.connect()
     while True:
         local_queue=queue.get()
         if len(local_queue)!=0:
             name=local_queue.pop(0)
-            nameL=name+"L.jpg"
-            nameR=name+"R.jpg"
-            name="..\\Stitched images" + name + ".jpg"
-            stitcher.stitch_and_save(nameL,nameR,name)
+            nameL="..\\Recived_images\\"+ name +"L.jpg"
+            nameR="..\\Recived_images\\"+ name +"R.jpg"
+            file_name="..\\Stitched images\\" + name + ".jpg"
+            stitcher.stitch_and_save(nameL,nameR,file_name)
             os.remove(nameL)
             os.remove(nameR)
+            save(SQL,name,file_name)
 
+def save(SQL,name,file_name):
+    SQL.save_images(name,file_name)
 
 if __name__=="__main__":
     x=Server_Communication()
