@@ -27,7 +27,7 @@ class stitch():
 		self.matches=[]
 		self.camera=[]
 		try: #Repeat over till confidence score is high enough to match images
-			self.stitch_and_save("server/test13L.png","server/test13R.png","server/testing5testwithoutblend3.png")
+			self.stitch_and_save("Recived_images\\test13L.png","Recived_images\\test13R.png","Recived_images\\test13.png")
 			z=1
 		except:
 			pass
@@ -56,16 +56,16 @@ class stitch():
 		matcher = FeatureMatcher()#matcher_type='affine'
 		self.features = [finder.detect_features(img) for img in self.medium_imgs]
 		self.matches = matcher.match_features(self.features)
-		print(matcher.get_confidence_matrix(self.matches))
+		'''print(matcher.get_confidence_matrix(self.matches))
 		all_relevant_matches = matcher.draw_matches_matrix(self.medium_imgs, self.features, self.matches, conf_thresh=0.99, #for testing to see matches
                                                    inliers=True, matchColor=(0, 255, 0))
-		'''keypoints_center_img = finder.draw_keypoints(self.medium_imgs[0], self.features[0])
+		keypoints_center_img = finder.draw_keypoints(self.medium_imgs[0], self.features[0])
 		plot_image(keypoints_center_img, (15,10))
 		keypoints_center_img = finder.draw_keypoints(self.medium_imgs[1], self.features[1])
-		plot_image(keypoints_center_img, (15,10))'''
+		plot_image(keypoints_center_img, (15,10))
 		for idx1, idx2, img in all_relevant_matches:
 			print(f"Matches Image {idx1+1} to Image {idx2+1}")
-			plot_image(img, (20,10))
+			plot_image(img, (20,10))'''
 
 	def subset(self): #might not be needed change
 		if self.first_run==True:
@@ -128,7 +128,7 @@ class stitch():
 		cv2.imwrite(name, self.panorama)
 		self.first_run=False
 		
-from matplotlib import pyplot as plt #for testing
+'''from matplotlib import pyplot as plt #for testing
 import cv2 as cv
 import numpy as np
 
@@ -161,4 +161,4 @@ if __name__=="__main__":
 			z=1
 		except:
 			pass
-	x.stitch_and_save("server/test9L.png","server/test9R.png","server/testing5testwithoutblend4.png") #Based on previous matched image match this one to same criteria
+	x.stitch_and_save("server/test9L.png","server/test9R.png","server/testing5testwithoutblend4.png") #Based on previous matched image match this one to same criteria'''

@@ -73,7 +73,7 @@ def move_image(name):
     #add row on mySQL with location and file name - server should deal with this when it recives name
 
 def ping(Queue):
-    host="192.168.1.25" # Server IP
+    host="192.168.137.1" # Server IP
     port=50000 #Server port
     server=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     Local_Queue=[]
@@ -90,9 +90,13 @@ def ping(Queue):
             time.sleep(1)
         if len(Local_Queue)!=0:
             name=Local_Queue[0]
-            concurrent.futures.ThreadPoolExecutor().submit(move_image,name=Local_Queue.pop(0))
-            server.send(name.encode("ascii"))
-            if server.recv(1024).decode("ascii")==name:
+            try:
+                server.sendall(name.encode("ascii"))
+            except:
+                pass
+            received=server.recv(4096)
+            received=received.decode("ascii")
+            if received==name:
                 concurrent.futures.ThreadPoolExecutor().submit(move_image,name=Local_Queue.pop(0))
             else:
                 server.close()
