@@ -67,6 +67,7 @@ def move_image(name):
             ftp.prot_p()
         except:
             pass #Raise a flag
+            print("Dced from ftp server")
         name=name[:-5]+".jpg"
         Queue.put(name)
         pass #Raise a flag
@@ -81,6 +82,7 @@ def ping(Queue):
         server.connect((host,port))
     except:
         #GPIO.output(18,GPIO.HIGH)
+        print("Server failed to connect")
         pass
     while True:
         time.sleep(0.1)
@@ -93,6 +95,8 @@ def ping(Queue):
             try:
                 server.sendall(name.encode("ascii"))
             except:
+                server.connect((host,port))
+                print("failed to send name")
                 pass
             received=server.recv(4096)
             received=received.decode("ascii")
@@ -104,6 +108,7 @@ def ping(Queue):
                 try:
                     server.connect((host,port))
                 except:
+                    #Add some handling
                     #GPIO.output(18,GPIO.HIGH)
                     pass
         else:
