@@ -103,6 +103,7 @@ if __name__=="__main__":
         time.sleep(0.1)
         timer+=1
         if File_Names[0]==File_Names[1]!=Past_Name: #risk of error if raspberry pis get out of sync
+            print(File_Names[0])
             timer=0
             Past_Name=File_Names[0]
             x.MyEvent.set()
