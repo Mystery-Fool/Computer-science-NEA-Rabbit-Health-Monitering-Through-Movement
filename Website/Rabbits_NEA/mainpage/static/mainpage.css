@@ -1,0 +1,35 @@
+#header{
+  text-align: center;
+}
+#head{
+  position: absolute;
+  margin: auto;
+  clear: both;
+  display: inline;
+}
+
+.menu{
+  float: right;
+  padding-right: 10px;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+
+}  
+.across{
+  clear: both;
+  width: 100%;
+}
+
+img{
+  max-width: 90%;
+}
+
+body{
+  background-color: darkgreen;
+  color: azure;
+}

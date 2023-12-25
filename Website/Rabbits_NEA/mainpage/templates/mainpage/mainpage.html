@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>Rabbit Health</title>
+    <link rel="stylesheet" href="{% static 'mainpage.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'Favicon.png' %}">
+</head>
+<body>
+    <div id="header">
+        <h1 id="head">Rabbit Dashboard</h1>
+        <a class="menu" href="url">Print</a>
+        <a class="menu" href="url">Remove/Save Images</a>
+    </div>
+    <div class="across">
+        <div class="columns">
+            <h2>Movement</h2>
+            <h3>Cinny</h3>
+            <!--<img src="{% static 'cinny_movement.jpg' %}">-->
+            <h3>Cleo</h3>
+            <!--<img src="{% static 'cleo_movement  .jpg' %}">-->
+        </div>
+        <div class="columns">
+            <h2>Images</h2>
+            <h3>Last Picture</h3>
+            <img src="{% static 'recent_pic.jpg' %}">
+            <h3>Daily Gif</h3>
+            <!--<img src="{% static 'daily.gif' %}">-->
+        </div>
+    </div>
+</body>
