@@ -60,14 +60,14 @@ def move_image(name):
         ftp.storbinary("STOR "+name,image,524288)
         name=name[:-5]+".jpg"
         os.remove(name)
-    except Exception as Errors:
-        print(Errors)
+    except Exception as Error:
+        print(Error)
         try:
             ftp.connect("192.168.137.1",21)
             ftp.login("RabbitServer","CinnyCleo1000")
             ftp.prot_p()
-        except Exception as Errors:
-            print(Errors)
+        except Exception as Error:
+            print(Error)
             pass #Raise a flag
             print("Dced from ftp server")
         name=name[:-5]+".jpg"

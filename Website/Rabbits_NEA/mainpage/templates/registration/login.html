@@ -1,12 +1,18 @@
 {% load static %}
-
-<form method="post" action="{% url 'login' %}">
-{% csrf_token %}
-{{ form.username.label_tag }}
-{{ form.username }}
-{{ form.password.label_tag }}
-{{ form.password }}
-
-<input type="submit" value="login">
-<input type="hidden" name="next" value="{{ next }}">
-</form>
+<head>
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="{% static 'Favicon.png' %}">
+</head>
+<body>
+    
+    <form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+    <h4>Username:</h4>
+    >{{ form.username }}
+    <h4>Password:</h4>
+    >{{ form.password }}
+    <div id="button">
+        <input type="submit" value="login">
+    </div>
+    </form>
+</body>
