@@ -1,4 +1,0 @@
-imageio
-PILLOW
-pygifsicle
-matplotlib

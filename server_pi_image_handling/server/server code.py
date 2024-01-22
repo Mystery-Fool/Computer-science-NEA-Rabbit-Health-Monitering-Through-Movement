@@ -3,20 +3,25 @@
 #upgrade to automata down the line along with making into classes
 import time
 import multiprocessing
-from Server_communication import Server_Communication
-from stitchs import stitch
+from Image_and_server_handling.Server_communication import Server_Communication
+from Image_and_server_handling.stitchs import my_stitch
+import threading
+from Image_and_server_handling.Server_code_MYSQL import sql_server_handling
 
+def start_collected(queue):
+    server=threading.Thread(target=server_checker,args=(queue,))
+    server.start()
 
-def start_stitching(queue):
-    stitcher=stitch()
-    stitching=multiprocessing.Process(target=stitcher.loop_stitches, args=(queue,))
-    stitching.start()
+def start_stitching(queue,sql):
+    stitcher=my_stitch()
+    stitcher.loop_stitches(queue,sql)
+    
 
 def server_checker(queue):
-    Server=Server_Communication()
+    File_Names=["",""]
+    Server=Server_Communication(File_Names)
     time.sleep(1)
     Server.accept_connections()
-    File_Names=["",""]
     timer=0
     Past_Name=""
     while True:
@@ -30,16 +35,22 @@ def server_checker(queue):
             time.sleep(0.01)
             Server.MyEvent.clear()
             queue.put(Past_Name)
-        if timer==500:
-            pass
+        if timer>500:
+            print(File_Names)
+            timer=0
             #send an email
         
         
 if __name__=="__main__":
+    sql=sql_server_handling()
+    my_sql=threading.Thread(target=sql.automate_SQL_db_updates)
+    my_sql.start()
     queue=multiprocessing.Queue()
-    server_checker(queue)
-    start_stitching(queue)
+    collected=multiprocessing.Process(target=start_collected, args=(queue,))
+    collected.start()
+    start_stitching(queue,sql)
     
-    
+
+
     
     
