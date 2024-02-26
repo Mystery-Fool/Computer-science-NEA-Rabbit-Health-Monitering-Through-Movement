@@ -1,0 +1,7900 @@
+{
+  "annotations": [
+    {
+      "area": 70370,
+      "bbox": [
+        1825,
+        424,
+        310,
+        227
+      ],
+      "category_id": 1,
+      "color": "#ead836",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702150917081
+          },
+          "milliseconds": 21919,
+          "tools_used": [
+            "Select",
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 1,
+      "image_id": 1,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 21919,
+      "segmentation": [
+        [
+          2134.9,
+          424.4,
+          2134.9,
+          650.7,
+          1825.4,
+          650.7,
+          1825.4,
+          424.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54178,
+      "bbox": [
+        1912,
+        461,
+        206,
+        263
+      ],
+      "category_id": 1,
+      "color": "#08faef",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151020239
+          },
+          "milliseconds": 7754,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 3,
+      "image_id": 2,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7754,
+      "segmentation": [
+        [
+          2118.3,
+          461,
+          2118.3,
+          723.9,
+          1911.9,
+          723.9,
+          1911.9,
+          461
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 51789,
+      "bbox": [
+        1899,
+        458,
+        183,
+        283
+      ],
+      "category_id": 1,
+      "color": "#0fcd6c",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151044177
+          },
+          "milliseconds": 8005,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 5,
+      "image_id": 3,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8005,
+      "segmentation": [
+        [
+          2081.7,
+          457.7,
+          2081.7,
+          740.5,
+          1898.6,
+          740.5,
+          1898.6,
+          457.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54988,
+      "bbox": [
+        1892,
+        428,
+        236,
+        233
+      ],
+      "category_id": 1,
+      "color": "#df4068",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151061043
+          },
+          "milliseconds": 8012,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 7,
+      "image_id": 4,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8012,
+      "segmentation": [
+        [
+          2128.2,
+          427.7,
+          2128.2,
+          660.7,
+          1892,
+          660.7,
+          1892,
+          427.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 52934,
+      "bbox": [
+        1899,
+        421,
+        199,
+        266
+      ],
+      "category_id": 1,
+      "color": "#22fc04",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151081397
+          },
+          "milliseconds": 7654,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 9,
+      "image_id": 5,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7654,
+      "segmentation": [
+        [
+          2098.3,
+          421.1,
+          2098.3,
+          687.3,
+          1898.6,
+          687.3,
+          1898.6,
+          421.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 929936,
+      "bbox": [
+        554,
+        564,
+        1288,
+        722
+      ],
+      "category_id": 3,
+      "color": "#e52080",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151095206
+          },
+          "milliseconds": 8095,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 11,
+      "image_id": 5,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8095,
+      "segmentation": [
+        [
+          1842.1,
+          564.2,
+          1842.1,
+          1286.3,
+          554.3,
+          1286.3,
+          554.3,
+          564.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 689268,
+      "bbox": [
+        1609,
+        358,
+        809,
+        852
+      ],
+      "category_id": 3,
+      "color": "#60daa8",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151142569
+          },
+          "milliseconds": 6648,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 14,
+      "image_id": 6,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6648,
+      "segmentation": [
+        [
+          1609.1,
+          1209.7,
+          1609.1,
+          357.9,
+          2417.7,
+          357.9,
+          2417.7,
+          1209.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 1394888,
+      "bbox": [
+        2561,
+        674,
+        1331,
+        1048
+      ],
+      "category_id": 3,
+      "color": "#ae2858",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702151185099
+          },
+          "milliseconds": 8810753,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 19,
+      "image_id": 7,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8810753,
+      "segmentation": [
+        [
+          3891.9,
+          674,
+          3891.9,
+          1722.2,
+          2560.8,
+          1722.2,
+          2560.8,
+          674
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 9600,
+      "bbox": [
+        1476,
+        424,
+        80,
+        120
+      ],
+      "category_id": 2,
+      "color": "#9ad62c",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160209351
+          },
+          "milliseconds": 5108,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 34,
+      "image_id": 9,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5108,
+      "segmentation": [
+        [
+          1555.9,
+          424.4,
+          1555.9,
+          544.2,
+          1476,
+          544.2,
+          1476,
+          424.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 58104,
+      "bbox": [
+        1829,
+        651,
+        269,
+        216
+      ],
+      "category_id": 2,
+      "color": "#d314e7",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160056749
+          },
+          "milliseconds": 4498,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 24,
+      "image_id": 11,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4498,
+      "segmentation": [
+        [
+          2098.3,
+          650.7,
+          2098.3,
+          867,
+          1828.8,
+          867,
+          1828.8,
+          650.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 63180,
+      "bbox": [
+        1825,
+        627,
+        260,
+        243
+      ],
+      "category_id": 2,
+      "color": "#7c19ac",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160073428
+          },
+          "milliseconds": 6147,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 26,
+      "image_id": 13,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6147,
+      "segmentation": [
+        [
+          2085,
+          627.4,
+          2085,
+          870.3,
+          1825.4,
+          870.3,
+          1825.4,
+          627.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 73160,
+      "bbox": [
+        1965,
+        830,
+        236,
+        310
+      ],
+      "category_id": 1,
+      "color": "#9536ed",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160123803
+          },
+          "milliseconds": 11303,
+          "tools_used": [
+            "Select",
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 28,
+      "image_id": 14,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 22606,
+      "segmentation": [
+        [
+          1965.2,
+          1139.9,
+          1965.2,
+          830.4,
+          2201.4,
+          830.4,
+          2201.4,
+          1139.9
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 30600,
+      "bbox": [
+        1489,
+        471,
+        170,
+        180
+      ],
+      "category_id": 2,
+      "color": "#e006b8",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160158195
+          },
+          "milliseconds": 5986,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 30,
+      "image_id": 15,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5986,
+      "segmentation": [
+        [
+          1489.3,
+          650.7,
+          1489.3,
+          471,
+          1659.1,
+          471,
+          1659.1,
+          650.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 93628,
+      "bbox": [
+        3805,
+        548,
+        263,
+        356
+      ],
+      "category_id": 1,
+      "color": "#9717e1",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160193822
+          },
+          "milliseconds": 5031,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 33,
+      "image_id": 16,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5031,
+      "segmentation": [
+        [
+          4068.2,
+          547.5,
+          4068.2,
+          903.6,
+          3805.3,
+          903.6,
+          3805.3,
+          547.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 89518,
+      "bbox": [
+        1772,
+        701,
+        313,
+        286
+      ],
+      "category_id": 1,
+      "color": "#dd384b",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160241258
+          },
+          "milliseconds": 4923,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 37,
+      "image_id": 17,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4923,
+      "segmentation": [
+        [
+          2085,
+          700.6,
+          2085,
+          986.8,
+          1772.2,
+          986.8,
+          1772.2,
+          700.6
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 1823118,
+      "bbox": [
+        707,
+        594,
+        1518,
+        1201
+      ],
+      "category_id": 3,
+      "color": "#a540fc",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160273706
+          },
+          "milliseconds": 7833,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 39,
+      "image_id": 18,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7833,
+      "segmentation": [
+        [
+          2224.7,
+          594.1,
+          2224.7,
+          1795.4,
+          707.4,
+          1795.4,
+          707.4,
+          594.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 17441,
+      "bbox": [
+        1479,
+        428,
+        107,
+        163
+      ],
+      "category_id": 2,
+      "color": "#e99914",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160289769
+          },
+          "milliseconds": 5891,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 41,
+      "image_id": 19,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5891,
+      "segmentation": [
+        [
+          1479.4,
+          590.8,
+          1479.4,
+          427.7,
+          1585.8,
+          427.7,
+          1585.8,
+          590.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 67496,
+      "bbox": [
+        1919,
+        588,
+        286,
+        236
+      ],
+      "category_id": 2,
+      "color": "#4353e4",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160305958
+          },
+          "milliseconds": 6757,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 43,
+      "image_id": 20,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6757,
+      "segmentation": [
+        [
+          2204.8,
+          587.5,
+          2204.8,
+          823.7,
+          1918.6,
+          823.7,
+          1918.6,
+          587.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 52800,
+      "bbox": [
+        1995,
+        584,
+        220,
+        240
+      ],
+      "category_id": 2,
+      "color": "#ec3ba3",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160320747
+          },
+          "milliseconds": 4477,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 45,
+      "image_id": 21,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4477,
+      "segmentation": [
+        [
+          2214.8,
+          584.1,
+          2214.8,
+          823.7,
+          1995.1,
+          823.7,
+          1995.1,
+          584.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 38468,
+      "bbox": [
+        2032,
+        584,
+        163,
+        236
+      ],
+      "category_id": 2,
+      "color": "#dfef08",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160332390
+          },
+          "milliseconds": 4615,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 47,
+      "image_id": 22,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4615,
+      "segmentation": [
+        [
+          2031.7,
+          820.4,
+          2031.7,
+          584.1,
+          2194.8,
+          584.1,
+          2194.8,
+          820.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 43560,
+      "bbox": [
+        2008,
+        598,
+        180,
+        242
+      ],
+      "category_id": 2,
+      "color": "#0723ab",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160344352
+          },
+          "milliseconds": 6663,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 49,
+      "image_id": 23,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6663,
+      "segmentation": [
+        [
+          2008.4,
+          840.4,
+          2008.4,
+          597.5,
+          2188.1,
+          597.5,
+          2188.1,
+          840.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 48250,
+      "bbox": [
+        2008,
+        584,
+        193,
+        250
+      ],
+      "category_id": 2,
+      "color": "#d649fb",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160359861
+          },
+          "milliseconds": 6741,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 51,
+      "image_id": 24,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6741,
+      "segmentation": [
+        [
+          2008.4,
+          833.7,
+          2008.4,
+          584.1,
+          2201.4,
+          584.1,
+          2201.4,
+          833.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 73250,
+      "bbox": [
+        1832,
+        554,
+        250,
+        293
+      ],
+      "category_id": 1,
+      "color": "#627dfb",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160375254
+          },
+          "milliseconds": 12319,
+          "tools_used": [
+            "BBox",
+            "Magic Wand",
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 53,
+      "image_id": 25,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 12319,
+      "segmentation": [
+        [
+          1832.1,
+          847,
+          1832.1,
+          554.2,
+          2081.7,
+          554.2,
+          2081.7,
+          847
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 38628,
+      "bbox": [
+        2018,
+        588,
+        174,
+        222
+      ],
+      "category_id": 2,
+      "color": "#cfd845",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160396920
+          },
+          "milliseconds": 6314,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 55,
+      "image_id": 26,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6314,
+      "segmentation": [
+        [
+          2018.4,
+          810.4,
+          2018.4,
+          587.5,
+          2191.5,
+          587.5,
+          2191.5,
+          810.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 63308,
+      "bbox": [
+        1576,
+        481,
+        323,
+        196
+      ],
+      "category_id": 1,
+      "color": "#3db7d0",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160413363
+          },
+          "milliseconds": 5754,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 57,
+      "image_id": 27,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5754,
+      "segmentation": [
+        [
+          1575.9,
+          677.3,
+          1575.9,
+          481,
+          1898.6,
+          481,
+          1898.6,
+          677.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 571280,
+      "bbox": [
+        391,
+        501,
+        965,
+        592
+      ],
+      "category_id": 3,
+      "color": "#2ac067",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160424089
+          },
+          "milliseconds": 6809,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 59,
+      "image_id": 27,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6809,
+      "segmentation": [
+        [
+          391.2,
+          1093.3,
+          391.2,
+          501,
+          1356.2,
+          501,
+          1356.2,
+          1093.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 7200,
+      "bbox": [
+        1486,
+        474,
+        60,
+        120
+      ],
+      "category_id": 2,
+      "color": "#36c214",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160441157
+          },
+          "milliseconds": 3359,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 61,
+      "image_id": 28,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 3359,
+      "segmentation": [
+        [
+          1486,
+          594.1,
+          1486,
+          474.3,
+          1545.9,
+          474.3,
+          1545.9,
+          594.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 7571,
+      "bbox": [
+        1486,
+        471,
+        67,
+        113
+      ],
+      "category_id": 2,
+      "color": "#a98e29",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160454301
+          },
+          "milliseconds": 3717,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 63,
+      "image_id": 29,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 3717,
+      "segmentation": [
+        [
+          1486,
+          584.1,
+          1486,
+          471,
+          1552.6,
+          471,
+          1552.6,
+          584.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 7571,
+      "bbox": [
+        1486,
+        478,
+        67,
+        113
+      ],
+      "category_id": 2,
+      "color": "#efda3a",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160467463
+          },
+          "milliseconds": 2903,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 65,
+      "image_id": 30,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 2903,
+      "segmentation": [
+        [
+          1486,
+          590.8,
+          1486,
+          477.7,
+          1552.6,
+          477.7,
+          1552.6,
+          590.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 44840,
+      "bbox": [
+        2601,
+        1456,
+        236,
+        190
+      ],
+      "category_id": 1,
+      "color": "#c909df",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160478904
+          },
+          "milliseconds": 4459,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 67,
+      "image_id": 31,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4459,
+      "segmentation": [
+        [
+          2600.8,
+          1645.6,
+          2600.8,
+          1456,
+          2837,
+          1456,
+          2837,
+          1645.6
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 41520,
+      "bbox": [
+        2621,
+        1386,
+        173,
+        240
+      ],
+      "category_id": 1,
+      "color": "#bc0a5d",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160493754
+          },
+          "milliseconds": 5223,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 69,
+      "image_id": 32,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5223,
+      "segmentation": [
+        [
+          2620.7,
+          1625.7,
+          2620.7,
+          1386.1,
+          2793.8,
+          1386.1,
+          2793.8,
+          1625.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 42768,
+      "bbox": [
+        2644,
+        1206,
+        176,
+        243
+      ],
+      "category_id": 2,
+      "color": "#e3aa80",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160511979
+          },
+          "milliseconds": 5990,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 71,
+      "image_id": 33,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5990,
+      "segmentation": [
+        [
+          2820.4,
+          1206.4,
+          2820.4,
+          1449.3,
+          2644,
+          1449.3,
+          2644,
+          1206.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 66744,
+      "bbox": [
+        2621,
+        1433,
+        309,
+        216
+      ],
+      "category_id": 1,
+      "color": "#d01699",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160547226
+          },
+          "milliseconds": 9005,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 73,
+      "image_id": 34,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 9005,
+      "segmentation": [
+        [
+          2620.7,
+          1649,
+          2620.7,
+          1432.7,
+          2930.2,
+          1432.7,
+          2930.2,
+          1649
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 57178,
+      "bbox": [
+        2927,
+        1283,
+        226,
+        253
+      ],
+      "category_id": 2,
+      "color": "#6085f8",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160574095
+          },
+          "milliseconds": 6712,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 75,
+      "image_id": 35,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6712,
+      "segmentation": [
+        [
+          3153.1,
+          1282.9,
+          3153.1,
+          1535.8,
+          2926.9,
+          1535.8,
+          2926.9,
+          1282.9
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54621,
+      "bbox": [
+        2724,
+        1393,
+        289,
+        189
+      ],
+      "category_id": 1,
+      "color": "#5862db",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160593589
+          },
+          "milliseconds": 7901,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 77,
+      "image_id": 36,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7901,
+      "segmentation": [
+        [
+          3013.4,
+          1392.8,
+          3013.4,
+          1582.4,
+          2723.9,
+          1582.4,
+          2723.9,
+          1392.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60490,
+      "bbox": [
+        2917,
+        1276,
+        230,
+        263
+      ],
+      "category_id": 2,
+      "color": "#ed10dd",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160610597
+          },
+          "milliseconds": 3062,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 79,
+      "image_id": 37,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 3062,
+      "segmentation": [
+        [
+          3146.5,
+          1276.3,
+          3146.5,
+          1539.2,
+          2916.9,
+          1539.2,
+          2916.9,
+          1276.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 70380,
+      "bbox": [
+        2737,
+        1389,
+        340,
+        207
+      ],
+      "category_id": 1,
+      "color": "#83bc06",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160624282
+          },
+          "milliseconds": 4748,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 81,
+      "image_id": 38,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4748,
+      "segmentation": [
+        [
+          3076.6,
+          1389.4,
+          3076.6,
+          1595.7,
+          2737.2,
+          1595.7,
+          2737.2,
+          1389.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 65856,
+      "bbox": [
+        2724,
+        1386,
+        336,
+        196
+      ],
+      "category_id": 1,
+      "color": "#2fe343",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160639123
+          },
+          "milliseconds": 5857,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 83,
+      "image_id": 39,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5857,
+      "segmentation": [
+        [
+          3060,
+          1386.1,
+          3060,
+          1582.4,
+          2723.9,
+          1582.4,
+          2723.9,
+          1386.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54750,
+      "bbox": [
+        2947,
+        1276,
+        219,
+        250
+      ],
+      "category_id": 2,
+      "color": "#24cad5",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160798776
+          },
+          "milliseconds": 6874,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 85,
+      "image_id": 40,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6874,
+      "segmentation": [
+        [
+          3166.4,
+          1276.3,
+          3166.4,
+          1525.9,
+          2946.8,
+          1525.9,
+          2946.8,
+          1276.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 51726,
+      "bbox": [
+        2944,
+        1293,
+        222,
+        233
+      ],
+      "category_id": 2,
+      "color": "#0803c6",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160843059
+          },
+          "milliseconds": 6437,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 87,
+      "image_id": 41,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6437,
+      "segmentation": [
+        [
+          3166.4,
+          1292.9,
+          3166.4,
+          1525.9,
+          2943.5,
+          1525.9,
+          2943.5,
+          1292.9
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 43737,
+      "bbox": [
+        2927,
+        1316,
+        239,
+        183
+      ],
+      "category_id": 2,
+      "color": "#e6dc25",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160864035
+          },
+          "milliseconds": 5975,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 89,
+      "image_id": 42,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5975,
+      "segmentation": [
+        [
+          3166.4,
+          1316.2,
+          3166.4,
+          1499.2,
+          2926.9,
+          1499.2,
+          2926.9,
+          1316.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 63840,
+      "bbox": [
+        2924,
+        1273,
+        266,
+        240
+      ],
+      "category_id": 2,
+      "color": "#26dd12",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160884612
+          },
+          "milliseconds": 4703,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 91,
+      "image_id": 43,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4703,
+      "segmentation": [
+        [
+          3189.7,
+          1273,
+          3189.7,
+          1512.5,
+          2923.5,
+          1512.5,
+          2923.5,
+          1273
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 68080,
+      "bbox": [
+        2967,
+        1266,
+        296,
+        230
+      ],
+      "category_id": 2,
+      "color": "#00b682",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160915405
+          },
+          "milliseconds": 7634,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 93,
+      "image_id": 44,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7634,
+      "segmentation": [
+        [
+          3262.9,
+          1266.3,
+          3262.9,
+          1495.9,
+          2966.8,
+          1495.9,
+          2966.8,
+          1266.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 80652,
+      "bbox": [
+        3649,
+        598,
+        286,
+        282
+      ],
+      "category_id": 2,
+      "color": "#e4222d",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160934225
+          },
+          "milliseconds": 4739,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 95,
+      "image_id": 45,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4739,
+      "segmentation": [
+        [
+          3935.1,
+          597.5,
+          3935.1,
+          880.3,
+          3648.9,
+          880.3,
+          3648.9,
+          597.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54901,
+      "bbox": [
+        3632,
+        747,
+        217,
+        253
+      ],
+      "category_id": 2,
+      "color": "#4409c1",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160949148
+          },
+          "milliseconds": 14060,
+          "tools_used": [
+            "BBox",
+            "Select"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 97,
+      "image_id": 46,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 14060,
+      "segmentation": [
+        [
+          3632.3,
+          1000.1,
+          3632.3,
+          747.2,
+          3848.6,
+          747.2,
+          3848.6,
+          1000.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54426,
+      "bbox": [
+        3652,
+        741,
+        193,
+        282
+      ],
+      "category_id": 2,
+      "color": "#e165f4",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702160972858
+          },
+          "milliseconds": 6125,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 99,
+      "image_id": 47,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6125,
+      "segmentation": [
+        [
+          3845.3,
+          740.5,
+          3845.3,
+          1023.4,
+          3652.3,
+          1023.4,
+          3652.3,
+          740.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60400,
+      "bbox": [
+        3642,
+        731,
+        200,
+        302
+      ],
+      "category_id": 2,
+      "color": "#ef6263",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161001591
+          },
+          "milliseconds": 5145,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 101,
+      "image_id": 48,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5145,
+      "segmentation": [
+        [
+          3841.9,
+          730.6,
+          3841.9,
+          1033.4,
+          3642.3,
+          1033.4,
+          3642.3,
+          730.6
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 68526,
+      "bbox": [
+        3696,
+        847,
+        282,
+        243
+      ],
+      "category_id": 2,
+      "color": "#22d576",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161017376
+          },
+          "milliseconds": 5973,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 103,
+      "image_id": 49,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5973,
+      "segmentation": [
+        [
+          3978.4,
+          847,
+          3978.4,
+          1089.9,
+          3695.5,
+          1089.9,
+          3695.5,
+          847
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 66402,
+      "bbox": [
+        3712,
+        864,
+        217,
+        306
+      ],
+      "category_id": 2,
+      "color": "#69ea6b",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161037923
+          },
+          "milliseconds": 6658,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 105,
+      "image_id": 50,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6658,
+      "segmentation": [
+        [
+          3928.5,
+          863.7,
+          3928.5,
+          1169.8,
+          3712.2,
+          1169.8,
+          3712.2,
+          863.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60760,
+      "bbox": [
+        3692,
+        950,
+        280,
+        217
+      ],
+      "category_id": 2,
+      "color": "#9afd10",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161059317
+          },
+          "milliseconds": 7670,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 107,
+      "image_id": 51,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7670,
+      "segmentation": [
+        [
+          3692.2,
+          1166.5,
+          3692.2,
+          950.2,
+          3971.7,
+          950.2,
+          3971.7,
+          1166.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 55596,
+      "bbox": [
+        3722,
+        957,
+        246,
+        226
+      ],
+      "category_id": 2,
+      "color": "#1fbb86",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161078613
+          },
+          "milliseconds": 7727,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 109,
+      "image_id": 52,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7727,
+      "segmentation": [
+        [
+          3722.2,
+          1183.1,
+          3722.2,
+          956.8,
+          3968.4,
+          956.8,
+          3968.4,
+          1183.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 56019,
+      "bbox": [
+        3702,
+        957,
+        263,
+        213
+      ],
+      "category_id": 2,
+      "color": "#55f89d",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161096815
+          },
+          "milliseconds": 7888,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 111,
+      "image_id": 53,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7888,
+      "segmentation": [
+        [
+          3702.2,
+          1169.8,
+          3702.2,
+          956.8,
+          3965.1,
+          956.8,
+          3965.1,
+          1169.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 59318,
+      "bbox": [
+        3696,
+        957,
+        266,
+        223
+      ],
+      "category_id": 2,
+      "color": "#14bec1",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161114237
+          },
+          "milliseconds": 7015,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 113,
+      "image_id": 54,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7015,
+      "segmentation": [
+        [
+          3695.5,
+          1179.8,
+          3695.5,
+          956.8,
+          3961.7,
+          956.8,
+          3961.7,
+          1179.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 53037,
+      "bbox": [
+        3706,
+        957,
+        249,
+        213
+      ],
+      "category_id": 2,
+      "color": "#3d7ee2",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161131126
+          },
+          "milliseconds": 7324,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 115,
+      "image_id": 55,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7324,
+      "segmentation": [
+        [
+          3705.5,
+          1169.8,
+          3705.5,
+          956.8,
+          3955.1,
+          956.8,
+          3955.1,
+          1169.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 51759,
+      "bbox": [
+        3719,
+        957,
+        243,
+        213
+      ],
+      "category_id": 2,
+      "color": "#d31106",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161149051
+          },
+          "milliseconds": 6969,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 117,
+      "image_id": 56,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6969,
+      "segmentation": [
+        [
+          3718.8,
+          1169.8,
+          3718.8,
+          956.8,
+          3961.7,
+          956.8,
+          3961.7,
+          1169.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 1091002,
+      "bbox": [
+        2644,
+        1000,
+        1111,
+        982
+      ],
+      "category_id": 3,
+      "color": "#f4387d",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161171581
+          },
+          "milliseconds": 11350,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 119,
+      "image_id": 57,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 11350,
+      "segmentation": [
+        [
+          3755.4,
+          1000.1,
+          3755.4,
+          1981.7,
+          2644,
+          1981.7,
+          2644,
+          1000.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 58764,
+      "bbox": [
+        3709,
+        957,
+        249,
+        236
+      ],
+      "category_id": 2,
+      "color": "#92e306",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161196811
+          },
+          "milliseconds": 7680,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 121,
+      "image_id": 58,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7680,
+      "segmentation": [
+        [
+          3708.8,
+          1193.1,
+          3708.8,
+          956.8,
+          3958.4,
+          956.8,
+          3958.4,
+          1193.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 44469,
+      "bbox": [
+        3709,
+        967,
+        243,
+        183
+      ],
+      "category_id": 2,
+      "color": "#68b003",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161215130
+          },
+          "milliseconds": 11800,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 123,
+      "image_id": 59,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 11800,
+      "segmentation": [
+        [
+          3951.8,
+          966.8,
+          3951.8,
+          1149.8,
+          3708.8,
+          1149.8,
+          3708.8,
+          966.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 47908,
+      "bbox": [
+        3749,
+        957,
+        203,
+        236
+      ],
+      "category_id": 2,
+      "color": "#e81ed7",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161239366
+          },
+          "milliseconds": 4545,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 125,
+      "image_id": 60,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4545,
+      "segmentation": [
+        [
+          3748.8,
+          1193.1,
+          3748.8,
+          956.8,
+          3951.8,
+          956.8,
+          3951.8,
+          1193.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 48517,
+      "bbox": [
+        3745,
+        957,
+        203,
+        239
+      ],
+      "category_id": 2,
+      "color": "#0cd122",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161254259
+          },
+          "milliseconds": 8400,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 127,
+      "image_id": 61,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8400,
+      "segmentation": [
+        [
+          3745.4,
+          1196.4,
+          3745.4,
+          956.8,
+          3948.4,
+          956.8,
+          3948.4,
+          1196.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 38430,
+      "bbox": [
+        3762,
+        950,
+        210,
+        183
+      ],
+      "category_id": 2,
+      "color": "#fc4d54",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161274024
+          },
+          "milliseconds": 9543,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 129,
+      "image_id": 62,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 9543,
+      "segmentation": [
+        [
+          3762.1,
+          1133.2,
+          3762.1,
+          950.2,
+          3971.7,
+          950.2,
+          3971.7,
+          1133.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 45938,
+      "bbox": [
+        3749,
+        957,
+        206,
+        223
+      ],
+      "category_id": 2,
+      "color": "#f67648",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161297175
+          },
+          "milliseconds": 105376,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 131,
+      "image_id": 63,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 105376,
+      "segmentation": [
+        [
+          3748.8,
+          1179.8,
+          3748.8,
+          956.8,
+          3955.1,
+          956.8,
+          3955.1,
+          1179.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 47174,
+      "bbox": [
+        3736,
+        964,
+        229,
+        206
+      ],
+      "category_id": 2,
+      "color": "#5135fa",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161415847
+          },
+          "milliseconds": 10029,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 133,
+      "image_id": 64,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 10029,
+      "segmentation": [
+        [
+          3735.5,
+          1169.8,
+          3735.5,
+          963.5,
+          3965.1,
+          963.5,
+          3965.1,
+          1169.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 58056,
+      "bbox": [
+        3706,
+        967,
+        246,
+        236
+      ],
+      "category_id": 2,
+      "color": "#64f5d6",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161436706
+          },
+          "milliseconds": 4945,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 135,
+      "image_id": 65,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4945,
+      "segmentation": [
+        [
+          3705.5,
+          1203.1,
+          3705.5,
+          966.8,
+          3951.8,
+          966.8,
+          3951.8,
+          1203.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 50190,
+      "bbox": [
+        3726,
+        967,
+        239,
+        210
+      ],
+      "category_id": 2,
+      "color": "#569eea",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161453974
+          },
+          "milliseconds": 8526,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 137,
+      "image_id": 66,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8526,
+      "segmentation": [
+        [
+          3725.5,
+          1176.5,
+          3725.5,
+          966.8,
+          3965.1,
+          966.8,
+          3965.1,
+          1176.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 53128,
+      "bbox": [
+        3736,
+        954,
+        232,
+        229
+      ],
+      "category_id": 2,
+      "color": "#b9ba23",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161515875
+          },
+          "milliseconds": 4430,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 139,
+      "image_id": 67,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4430,
+      "segmentation": [
+        [
+          3735.5,
+          1183.1,
+          3735.5,
+          953.5,
+          3968.4,
+          953.5,
+          3968.4,
+          1183.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 55687,
+      "bbox": [
+        3726,
+        950,
+        239,
+        233
+      ],
+      "category_id": 2,
+      "color": "#512eef",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161531135
+          },
+          "milliseconds": 5455,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 141,
+      "image_id": 68,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5455,
+      "segmentation": [
+        [
+          3725.5,
+          1183.1,
+          3725.5,
+          950.2,
+          3965.1,
+          950.2,
+          3965.1,
+          1183.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 48697,
+      "bbox": [
+        3749,
+        930,
+        209,
+        233
+      ],
+      "category_id": 2,
+      "color": "#178daf",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161561116
+          },
+          "milliseconds": 4284,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 143,
+      "image_id": 69,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4284,
+      "segmentation": [
+        [
+          3748.8,
+          1163.1,
+          3748.8,
+          930.2,
+          3958.4,
+          930.2,
+          3958.4,
+          1163.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 45800,
+      "bbox": [
+        3755,
+        934,
+        200,
+        229
+      ],
+      "category_id": 2,
+      "color": "#e3d073",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161579024
+          },
+          "milliseconds": 4119,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 145,
+      "image_id": 70,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4119,
+      "segmentation": [
+        [
+          3755.4,
+          1163.1,
+          3755.4,
+          933.5,
+          3955.1,
+          933.5,
+          3955.1,
+          1163.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 45800,
+      "bbox": [
+        3765,
+        944,
+        200,
+        229
+      ],
+      "category_id": 2,
+      "color": "#64ee4c",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161595877
+          },
+          "milliseconds": 6758,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 147,
+      "image_id": 71,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6758,
+      "segmentation": [
+        [
+          3765.4,
+          1173.1,
+          3765.4,
+          943.5,
+          3965.1,
+          943.5,
+          3965.1,
+          1173.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 47299,
+      "bbox": [
+        3759,
+        947,
+        203,
+        233
+      ],
+      "category_id": 2,
+      "color": "#933beb",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161615272
+          },
+          "milliseconds": 10162,
+          "tools_used": [
+            "Select",
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 149,
+      "image_id": 72,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 20324,
+      "segmentation": [
+        [
+          3758.8,
+          1179.8,
+          3758.8,
+          946.9,
+          3961.7,
+          946.9,
+          3961.7,
+          1179.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 45901,
+      "bbox": [
+        3765,
+        944,
+        197,
+        233
+      ],
+      "category_id": 2,
+      "color": "#c823b8",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161636582
+          },
+          "milliseconds": 7806,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 151,
+      "image_id": 73,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7806,
+      "segmentation": [
+        [
+          3765.4,
+          1176.5,
+          3765.4,
+          943.5,
+          3961.7,
+          943.5,
+          3961.7,
+          1176.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 48300,
+      "bbox": [
+        3745,
+        947,
+        210,
+        230
+      ],
+      "category_id": 2,
+      "color": "#2e55dd",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161685406
+          },
+          "milliseconds": 5309,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 153,
+      "image_id": 74,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5309,
+      "segmentation": [
+        [
+          3745.4,
+          1176.5,
+          3745.4,
+          946.9,
+          3955.1,
+          946.9,
+          3955.1,
+          1176.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 52998,
+      "bbox": [
+        3726,
+        944,
+        242,
+        219
+      ],
+      "category_id": 2,
+      "color": "#c94b0f",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161710434
+          },
+          "milliseconds": 5605,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 156,
+      "image_id": 75,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5605,
+      "segmentation": [
+        [
+          3725.5,
+          1163.1,
+          3725.5,
+          943.5,
+          3968.4,
+          943.5,
+          3968.4,
+          1163.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 77832,
+      "bbox": [
+        3626,
+        1157,
+        276,
+        282
+      ],
+      "category_id": 1,
+      "color": "#8bef07",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161725126
+          },
+          "milliseconds": 6126,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 158,
+      "image_id": 76,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6126,
+      "segmentation": [
+        [
+          3625.7,
+          1439.3,
+          3625.7,
+          1156.5,
+          3901.8,
+          1156.5,
+          3901.8,
+          1439.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 51660,
+      "bbox": [
+        3722,
+        957,
+        246,
+        210
+      ],
+      "category_id": 2,
+      "color": "#2d961f",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161743557
+          },
+          "milliseconds": 4880,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 160,
+      "image_id": 77,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4880,
+      "segmentation": [
+        [
+          3722.2,
+          1166.5,
+          3722.2,
+          956.8,
+          3968.4,
+          956.8,
+          3968.4,
+          1166.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 88320,
+      "bbox": [
+        3589,
+        1160,
+        320,
+        276
+      ],
+      "category_id": 1,
+      "color": "#1fa96c",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161760284
+          },
+          "milliseconds": 5513,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 162,
+      "image_id": 78,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5513,
+      "segmentation": [
+        [
+          3589.1,
+          1436,
+          3589.1,
+          1159.8,
+          3908.5,
+          1159.8,
+          3908.5,
+          1436
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 41239,
+      "bbox": [
+        3712,
+        970,
+        253,
+        163
+      ],
+      "category_id": 2,
+      "color": "#d9cc31",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161774179
+          },
+          "milliseconds": 5747,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 164,
+      "image_id": 79,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5747,
+      "segmentation": [
+        [
+          3712.2,
+          1133.2,
+          3712.2,
+          970.1,
+          3965.1,
+          970.1,
+          3965.1,
+          1133.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 44422,
+      "bbox": [
+        3696,
+        970,
+        266,
+        167
+      ],
+      "category_id": 2,
+      "color": "#62e2fd",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161788217
+          },
+          "milliseconds": 4955,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 166,
+      "image_id": 80,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4955,
+      "segmentation": [
+        [
+          3695.5,
+          1136.5,
+          3695.5,
+          970.1,
+          3961.7,
+          970.1,
+          3961.7,
+          1136.5
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 44807,
+      "bbox": [
+        3706,
+        970,
+        259,
+        173
+      ],
+      "category_id": 2,
+      "color": "#11d376",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161804551
+          },
+          "milliseconds": 7058,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 168,
+      "image_id": 81,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7058,
+      "segmentation": [
+        [
+          3705.5,
+          1143.2,
+          3705.5,
+          970.1,
+          3965.1,
+          970.1,
+          3965.1,
+          1143.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 44750,
+      "bbox": [
+        3712,
+        964,
+        250,
+        179
+      ],
+      "category_id": 2,
+      "color": "#f6ee16",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161823584
+          },
+          "milliseconds": 5817,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 170,
+      "image_id": 82,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5817,
+      "segmentation": [
+        [
+          3712.2,
+          1143.2,
+          3712.2,
+          963.5,
+          3961.7,
+          963.5,
+          3961.7,
+          1143.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 55660,
+      "bbox": [
+        2551,
+        1446,
+        253,
+        220
+      ],
+      "category_id": 1,
+      "color": "#80a61b",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161839483
+          },
+          "milliseconds": 8127,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 172,
+      "image_id": 83,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 8127,
+      "segmentation": [
+        [
+          2550.8,
+          1665.6,
+          2550.8,
+          1446,
+          2803.7,
+          1446,
+          2803.7,
+          1665.6
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 44156,
+      "bbox": [
+        3699,
+        964,
+        266,
+        166
+      ],
+      "category_id": 2,
+      "color": "#739822",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161859608
+          },
+          "milliseconds": 5329,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 174,
+      "image_id": 84,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5329,
+      "segmentation": [
+        [
+          3698.9,
+          1129.9,
+          3698.9,
+          963.5,
+          3965.1,
+          963.5,
+          3965.1,
+          1129.9
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 51110,
+      "bbox": [
+        3696,
+        960,
+        269,
+        190
+      ],
+      "category_id": 2,
+      "color": "#f366cd",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702161878484
+          },
+          "milliseconds": 5993,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 176,
+      "image_id": 85,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5993,
+      "segmentation": [
+        [
+          3695.5,
+          1149.8,
+          3695.5,
+          960.2,
+          3965.1,
+          960.2,
+          3965.1,
+          1149.8
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 49181,
+      "bbox": [
+        3699,
+        955,
+        263,
+        187
+      ],
+      "category_id": 2,
+      "color": "#21599f",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162045785
+          },
+          "milliseconds": 5865,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 178,
+      "image_id": 86,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5865,
+      "segmentation": [
+        [
+          3698.7,
+          1142.4,
+          3698.7,
+          954.7,
+          3962.3,
+          954.7,
+          3962.3,
+          1142.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 49588,
+      "bbox": [
+        3709,
+        957,
+        253,
+        196
+      ],
+      "category_id": 2,
+      "color": "#3dfa49",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162064362
+          },
+          "milliseconds": 11518,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 180,
+      "image_id": 87,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 11518,
+      "segmentation": [
+        [
+          3708.8,
+          1153.2,
+          3708.8,
+          956.8,
+          3961.7,
+          956.8,
+          3961.7,
+          1153.2
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 68968,
+      "bbox": [
+        3722,
+        957,
+        233,
+        296
+      ],
+      "category_id": 2,
+      "color": "#581fc6",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162086866
+          },
+          "milliseconds": 3968,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 182,
+      "image_id": 88,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 3968,
+      "segmentation": [
+        [
+          3722.2,
+          1253,
+          3722.2,
+          956.8,
+          3955.1,
+          956.8,
+          3955.1,
+          1253
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 92834,
+      "bbox": [
+        3656,
+        1017,
+        266,
+        349
+      ],
+      "category_id": 2,
+      "color": "#ca05c3",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162102943
+          },
+          "milliseconds": 3942,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 184,
+      "image_id": 89,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 3942,
+      "segmentation": [
+        [
+          3655.6,
+          1366.1,
+          3655.6,
+          1016.7,
+          3921.8,
+          1016.7,
+          3921.8,
+          1366.1
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60409,
+      "bbox": [
+        3592,
+        1216,
+        313,
+        193
+      ],
+      "category_id": 2,
+      "color": "#72d74e",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162115435
+          },
+          "milliseconds": 16024,
+          "tools_used": [
+            "BBox",
+            "Select"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 186,
+      "image_id": 90,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 16024,
+      "segmentation": [
+        [
+          3592.4,
+          1409.4,
+          3592.4,
+          1216.4,
+          3905.2,
+          1216.4,
+          3905.2,
+          1409.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 56317,
+      "bbox": [
+        3609,
+        1220,
+        283,
+        199
+      ],
+      "category_id": 2,
+      "color": "#aa6c0d",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162176568
+          },
+          "milliseconds": 5045,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 188,
+      "image_id": 91,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5045,
+      "segmentation": [
+        [
+          3609,
+          1419.4,
+          3609,
+          1219.7,
+          3891.9,
+          1219.7,
+          3891.9,
+          1419.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54619,
+      "bbox": [
+        3612,
+        1216,
+        283,
+        193
+      ],
+      "category_id": 2,
+      "color": "#18489d",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162191658
+          },
+          "milliseconds": 5410,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 190,
+      "image_id": 92,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5410,
+      "segmentation": [
+        [
+          3612.3,
+          1409.4,
+          3612.3,
+          1216.4,
+          3895.2,
+          1216.4,
+          3895.2,
+          1409.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 59470,
+      "bbox": [
+        3596,
+        1226,
+        313,
+        190
+      ],
+      "category_id": 2,
+      "color": "#ae058e",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162204618
+          },
+          "milliseconds": 4849,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 192,
+      "image_id": 93,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4849,
+      "segmentation": [
+        [
+          3595.7,
+          1416,
+          3595.7,
+          1226.4,
+          3908.5,
+          1226.4,
+          3908.5,
+          1416
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 61530,
+      "bbox": [
+        3602,
+        1216,
+        293,
+        210
+      ],
+      "category_id": 2,
+      "color": "#fccf47",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162219977
+          },
+          "milliseconds": 4080,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 194,
+      "image_id": 94,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4080,
+      "segmentation": [
+        [
+          3602.4,
+          1426,
+          3602.4,
+          1216.4,
+          3895.2,
+          1216.4,
+          3895.2,
+          1426
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 59616,
+      "bbox": [
+        3616,
+        1220,
+        276,
+        216
+      ],
+      "category_id": 2,
+      "color": "#b40f76",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162233674
+          },
+          "milliseconds": 4104,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 196,
+      "image_id": 95,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4104,
+      "segmentation": [
+        [
+          3615.7,
+          1436,
+          3615.7,
+          1219.7,
+          3891.9,
+          1219.7,
+          3891.9,
+          1436
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 65007,
+      "bbox": [
+        3606,
+        1216,
+        279,
+        233
+      ],
+      "category_id": 2,
+      "color": "#e675c9",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162246701
+          },
+          "milliseconds": 6429,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 198,
+      "image_id": 96,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6429,
+      "segmentation": [
+        [
+          3605.7,
+          1449.3,
+          3605.7,
+          1216.4,
+          3885.2,
+          1216.4,
+          3885.2,
+          1449.3
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60382,
+      "bbox": [
+        3616,
+        1216,
+        266,
+        227
+      ],
+      "category_id": 2,
+      "color": "#a91dbe",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162261865
+          },
+          "milliseconds": 5065,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 200,
+      "image_id": 97,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5065,
+      "segmentation": [
+        [
+          3615.7,
+          1442.7,
+          3615.7,
+          1216.4,
+          3881.9,
+          1216.4,
+          3881.9,
+          1442.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 66788,
+      "bbox": [
+        3619,
+        1210,
+        283,
+        236
+      ],
+      "category_id": 2,
+      "color": "#3ef6aa",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162277127
+          },
+          "milliseconds": 4085,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 202,
+      "image_id": 98,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4085,
+      "segmentation": [
+        [
+          3619,
+          1446,
+          3619,
+          1209.7,
+          3901.8,
+          1209.7,
+          3901.8,
+          1446
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60444,
+      "bbox": [
+        3616,
+        1210,
+        276,
+        219
+      ],
+      "category_id": 2,
+      "color": "#8f45db",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162288715
+          },
+          "milliseconds": 5067,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 204,
+      "image_id": 99,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5067,
+      "segmentation": [
+        [
+          3615.7,
+          1429.4,
+          3615.7,
+          1209.7,
+          3891.9,
+          1209.7,
+          3891.9,
+          1429.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 70091,
+      "bbox": [
+        3576,
+        1216,
+        323,
+        217
+      ],
+      "category_id": 2,
+      "color": "#c3342c",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162301494
+          },
+          "milliseconds": 16776,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 206,
+      "image_id": 100,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 16776,
+      "segmentation": [
+        [
+          3575.7,
+          1432.7,
+          3575.7,
+          1216.4,
+          3898.5,
+          1216.4,
+          3898.5,
+          1432.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 66677,
+      "bbox": [
+        3586,
+        1213,
+        299,
+        223
+      ],
+      "category_id": 2,
+      "color": "#6cf76b",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162326500
+          },
+          "milliseconds": 6116,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 208,
+      "image_id": 101,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6116,
+      "segmentation": [
+        [
+          3585.7,
+          1436,
+          3585.7,
+          1213.1,
+          3885.2,
+          1213.1,
+          3885.2,
+          1436
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 69223,
+      "bbox": [
+        3586,
+        1216,
+        319,
+        217
+      ],
+      "category_id": 2,
+      "color": "#7fde28",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162341164
+          },
+          "milliseconds": 6179,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 210,
+      "image_id": 102,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 6179,
+      "segmentation": [
+        [
+          3585.7,
+          1432.7,
+          3585.7,
+          1216.4,
+          3905.2,
+          1216.4,
+          3905.2,
+          1432.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 60279,
+      "bbox": [
+        3606,
+        1210,
+        283,
+        213
+      ],
+      "category_id": 2,
+      "color": "#5cdd97",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162382742
+          },
+          "milliseconds": 5207,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 212,
+      "image_id": 103,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5207,
+      "segmentation": [
+        [
+          3605.7,
+          1422.7,
+          3605.7,
+          1209.7,
+          3888.5,
+          1209.7,
+          3888.5,
+          1422.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 58320,
+      "bbox": [
+        3612,
+        1213,
+        270,
+        216
+      ],
+      "category_id": 2,
+      "color": "#e44bad",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162397193
+          },
+          "milliseconds": 4945,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 214,
+      "image_id": 104,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 4945,
+      "segmentation": [
+        [
+          3612.3,
+          1429.4,
+          3612.3,
+          1213.1,
+          3881.9,
+          1213.1,
+          3881.9,
+          1429.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 54498,
+      "bbox": [
+        3602,
+        1223,
+        293,
+        186
+      ],
+      "category_id": 2,
+      "color": "#12a2a0",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162410909
+          },
+          "milliseconds": 7200,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 216,
+      "image_id": 105,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 7200,
+      "segmentation": [
+        [
+          3602.4,
+          1409.4,
+          3602.4,
+          1223,
+          3895.2,
+          1223,
+          3895.2,
+          1409.4
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 68968,
+      "bbox": [
+        3589,
+        1210,
+        296,
+        233
+      ],
+      "category_id": 2,
+      "color": "#68d348",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162427268
+          },
+          "milliseconds": 5220,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 218,
+      "image_id": 106,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5220,
+      "segmentation": [
+        [
+          3589.1,
+          1442.7,
+          3589.1,
+          1209.7,
+          3885.2,
+          1209.7,
+          3885.2,
+          1442.7
+        ]
+      ],
+      "width": 4922
+    },
+    {
+      "area": 61830,
+      "bbox": [
+        3622,
+        1210,
+        270,
+        229
+      ],
+      "category_id": 2,
+      "color": "#0c86f3",
+      "creator": "admin",
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1702162445289
+          },
+          "milliseconds": 5703,
+          "tools_used": [
+            "BBox"
+          ],
+          "user": "admin"
+        }
+      ],
+      "height": 2110,
+      "id": 220,
+      "image_id": 107,
+      "isbbox": true,
+      "iscrowd": false,
+      "metadata": {},
+      "milliseconds": 5703,
+      "segmentation": [
+        [
+          3622.3,
+          1439.3,
+          3622.3,
+          1209.7,
+          3891.9,
+          1209.7,
+          3891.9,
+          1439.3
+        ]
+      ],
+      "width": 4922
+    }
+  ],
+  "categories": [
+    {
+      "color": "#e1b74d",
+      "creator": "admin",
+      "id": 1,
+      "keypoint_colors": [],
+      "metadata": {},
+      "name": "Cinny",
+      "supercategory": ""
+    },
+    {
+      "color": "#bad54a",
+      "creator": "admin",
+      "id": 2,
+      "keypoint_colors": [],
+      "metadata": {},
+      "name": "Cleo",
+      "supercategory": ""
+    },
+    {
+      "color": "#1d0fb6",
+      "creator": "admin",
+      "id": 3,
+      "keypoint_colors": [],
+      "metadata": {},
+      "name": "Human",
+      "supercategory": ""
+    }
+  ],
+  "images": [
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 470,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 94620,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2952,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1602,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-00-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 1,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 99644,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-00-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2529,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 70969,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-00-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 2,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 73498,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-00-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15759,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-00-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 3,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15759,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-00-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17003,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2292,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-00-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 4,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 19295,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-00-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 27172,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1860,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1418,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 524,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 766,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-00-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 5,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 31740,
+      "num_annotations": 3,
+      "path": "/datasets/Rabbits/00-00-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        2,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13597,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2088,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 519,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 21964,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-00-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 6,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 38168,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-00-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2526810,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-01-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 7,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 2526810,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-01-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 4958,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 9390,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-01-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 9,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14348,
+      "num_annotations": 1,
+      "path": "/datasets/Rabbits/00-01-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 7316,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 807,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1864,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-03-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 11,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 9987,
+      "num_annotations": 1,
+      "path": "/datasets/Rabbits/00-03-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 9915,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 901,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 635,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-03-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 13,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 11451,
+      "num_annotations": 1,
+      "path": "/datasets/Rabbits/00-03-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1851,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 36326,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 780,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 949,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-03-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 14,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 39906,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-03-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 34779,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17929,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 559,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 810,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-04-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 15,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 54077,
+      "num_annotations": 3,
+      "path": "/datasets/Rabbits/00-04-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1072,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 8314,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 11538,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-04-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 16,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 20924,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-04-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13769,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1304,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-04-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 17,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15073,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-04-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 9892,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2989,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16402,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-04-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 18,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 29283,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-04-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2003,
+          "tools_used": [],
+          "user": "admin"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16664,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-04-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 19,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 18667,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-04-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14660,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-05-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 20,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14660,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-05-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 11714,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-05-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 21,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 11714,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-05-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 11906,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-05-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 22,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 11906,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-05-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14280,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-05-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 23,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14280,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-05-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14671,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-05-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 24,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14671,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-05-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 20767,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-06-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 25,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 20767,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-06-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14010,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-06-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 26,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14010,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-06-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 22224,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-06-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 27,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 22224,
+      "num_annotations": 3,
+      "path": "/datasets/Rabbits/00-06-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12797,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-06-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 28,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12797,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-06-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12690,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-06-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 29,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12690,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-06-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12326,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-06-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 30,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12326,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-06-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12197,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-07-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 31,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12197,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-07-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14808,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-07-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 32,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14808,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-07-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 20596,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-07-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 33,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 20596,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-07-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 35894,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-07-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 34,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 35894,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-07-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 23750,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-07-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 35,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 23750,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-07-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 19825,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-07-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 36,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 19825,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-07-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12161,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-08-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 37,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12161,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-08-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14575,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-08-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 38,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14575,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-08-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15157,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-08-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 39,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15157,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-08-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 159862,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-08-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 40,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 159862,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-08-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 43029,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-08-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 41,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 43029,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-08-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 19720,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-08-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 42,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 19720,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-08-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 18504,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-09-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 43,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 18504,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-09-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 32953,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-09-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 44,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 32953,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-09-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15070,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-09-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 45,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15070,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-09-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 23447,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-09-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 46,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 23447,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-09-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15010,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-09-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 47,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15010,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-09-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 26915,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-09-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 48,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 26915,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-09-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15806,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-10-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 49,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15806,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-10-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 21271,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-10-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 50,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 21271,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-10-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 21554,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-10-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 51,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 21554,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-10-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 19311,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-10-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 52,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 19311,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-10-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17552,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-10-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 53,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 17552,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-10-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15735,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-10-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 54,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15735,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-10-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16412,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-11-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 55,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16412,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-11-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16736,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-11-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 56,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16736,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-11-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        2,
+        3
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 26918,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-11-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 57,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 26918,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-11-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 21531,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-11-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 58,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 21531,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-11-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 21652,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-11-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 59,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 21652,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-11-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16190,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-11-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 60,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16190,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-11-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17960,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-12-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 61,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 17960,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-12-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 20914,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-12-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 62,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 20914,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-12-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 118983,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-12-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 63,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 118983,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-12-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 22543,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-12-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 64,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 22543,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-12-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15746,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-12-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 65,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15746,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-12-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 20031,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-13-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 66,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 20031,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-13-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 57030,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-13-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 67,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 57030,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-13-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15485,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-13-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 68,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15485,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-13-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 28795,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-13-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 69,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 28795,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-13-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16914,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-13-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 70,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16914,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-13-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 19474,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-13-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 71,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 19474,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-13-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 22775,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-14-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 72,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 22775,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-14-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 18161,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-14-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 73,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 18161,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-14-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 46319,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-14-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 74,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 46319,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-14-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 25347,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-14-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 75,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 25347,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-14-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14390,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-14-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 76,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14390,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-14-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16388,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-14-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 77,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16388,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-14-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 18147,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-15-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 78,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 18147,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-15-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14137,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-15-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 79,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14137,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-15-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12445,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-15-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 80,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12445,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-15-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17619,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-15-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 81,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 17619,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-15-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16985,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-15-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 82,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16985,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-15-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17437,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-15-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 83,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 17437,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-15-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 16531,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-16-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 84,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 16531,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-16-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 18745,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-16-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 85,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 18745,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-16-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 167152,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-16-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 86,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 167152,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-16-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 23429,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-16-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 87,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 23429,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-16-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14971,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-16-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 88,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14971,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-16-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15263,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-16-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 89,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15263,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-16-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 23655,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-17-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 90,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 23655,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-17-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14442,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-17-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 91,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14442,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-17-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15459,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-17-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 92,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15459,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-17-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12363,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-17-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 93,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12363,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-17-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13801,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-17-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 94,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 13801,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-17-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12924,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-17-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 95,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12924,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-17-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15336,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-18-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 96,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15336,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-18-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13809,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-18-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 97,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 13809,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-18-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13471,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-18-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 98,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 13471,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-18-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 11746,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-18-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 99,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 11746,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-18-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 23712,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-18-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 100,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 23712,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-18-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14360,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-18-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 101,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14360,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-18-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13908,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-19-00_2023-12-03.jpg",
+      "height": 2110,
+      "id": 102,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 13908,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-19-00_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 40641,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-19-10_2023-12-03.jpg",
+      "height": 2110,
+      "id": 103,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 40641,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-19-10_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14160,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-19-20_2023-12-03.jpg",
+      "height": 2110,
+      "id": 104,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14160,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-19-20_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 15113,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-19-30_2023-12-03.jpg",
+      "height": 2110,
+      "id": 105,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 15113,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-19-30_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 13520,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-19-40_2023-12-03.jpg",
+      "height": 2110,
+      "id": 106,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 13520,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-19-40_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        1,
+        2
+      ],
+      "dataset_id": 1,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 17636,
+          "tools_used": [],
+          "user": "admin"
+        }
+      ],
+      "file_name": "00-19-50_2023-12-03.jpg",
+      "height": 2110,
+      "id": 107,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 17636,
+      "num_annotations": 2,
+      "path": "/datasets/Rabbits/00-19-50_2023-12-03.jpg",
+      "regenerate_thumbnail": false,
+      "width": 4922
+    }
+  ]
+}

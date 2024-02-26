@@ -3,16 +3,54 @@ from django.template import loader
 from django.contrib.auth import authenticate, login
 from django.shortcuts import redirect
 from django.contrib.auth import logout
+from mainpage.backend_management.backend_handler import handler
 
 
 def mainpage(request):
+    """
+    Renders the main page view aggrogating the required data into one place.
+
+    Args:
+        request: The HTTP request object.
+
+    Returns:
+        An HTTP response containing the rendered main page template.
+    """
     if request.user.is_authenticated:
+        # Call out to other modules
         template = loader.get_template('mainpage/mainpage.html')
-        return HttpResponse(template.render())
+        backend = handler()
+        hypothesis, times = backend.handle_website()
+        context = {
+            "cinny_hypothesis": hypothesis[0],
+            "cleo_hypothesis": hypothesis[1],
+            "cinny_time": times[0],
+            "cleo_time": times[1]
+        }
+        return HttpResponse(template.render(context))
     else:    
         return redirect("login/")
     
-from django.contrib.auth import logout
+def print(request):
+    """
+    Renders the print view aggrogating the data together.
 
-def login(request):
-    pass
+    Args:
+        request: The HTTP request object.
+
+    Returns:
+        An HTTP response containing the rendered print template.
+    """
+    if request.user.is_authenticated:
+        template = loader.get_template('mainpage/print.html')
+        backend = handler()
+        hypothesis, times = backend.handle_report()
+        context = {
+            "cinny_hypothesis": hypothesis[0],
+            "cleo_hypothesis": hypothesis[1],
+            "cinny_time": times[0],
+            "cleo_time": times[1]
+        }
+        return HttpResponse(template.render(context))
+    else:    
+        return redirect("../login/")

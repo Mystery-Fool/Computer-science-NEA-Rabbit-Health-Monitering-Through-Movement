@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>Report</title>
+    <link rel="stylesheet" href="{% static 'print.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'Favicon.png' %}">
+</head>
+<body>
+    <div id="header">
+        <h1 id="head">Rabbit Report</h1>
+        <button class="menu" onclick="window.print()">Print</button>
+        <a class="menu" href="../logout">Logout</a>
+        <a class="menu" href="../">Dashboard</a>
+    </div>
+    <div class="across">
+        <div class="column">
+            <h3>Cinny</h3>
+            <h4>Behaviour: {{ cinny_hypothesis }} &nbsp;&nbsp; Average Time Moving: {{ cinny_time }}</h4>
+            <img src="{% static 'cinny_daily_movement.png' %}">
+            <img src="{% static 'cinny_graph.png' %}">
+            <img src="{% static 'report_cinny_time_graph.png' %}">
+            <img src="{% static 'report_cinny_magnitude_graph.png' %}">
+                
+        </div>
+        <div class="column">
+            <h3>Cleo</h3>
+                <h4>Behaviour: {{ cleo_hypothesis }} &nbsp;&nbsp; Average Time Moving: {{ cleo_time }}</h4>
+                <img src="{% static 'cleo_daily_movement.png' %}">
+                <img src="{% static 'cleo_graph.png' %}">
+                <img src="{% static 'report_cleo_time_graph.png' %}">
+                <img src="{% static 'report_cleo_magnitude_graph.png' %}">
+        </div>
+    </div>
+</body>

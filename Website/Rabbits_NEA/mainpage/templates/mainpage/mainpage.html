@@ -8,23 +8,30 @@
 <body>
     <div id="header">
         <h1 id="head">Rabbit Dashboard</h1>
-        <a class="menu" href="url">Print</a>
-        <a class="menu" href="url">Remove/Save Images</a>
+        <a class="menu" href="logout">Logout</a>
+        <a class="menu" href="print">Print Report</a>
     </div>
     <div class="across">
-        <div class="columns">
+        <div class="column">
             <h2>Movement</h2>
-            <h3>Cinny</h3>
-            <!--<img src="{% static 'cinny_movement.jpg' %}">-->
-            <h3>Cleo</h3>
-            <!--<img src="{% static 'cleo_movement  .jpg' %}">-->
+            <div>
+                <h3>Cinny</h3>
+                <h4>Behaviour: {{ cinny_hypothesis }} &nbsp;&nbsp; Average Time Moving: {{ cinny_time }}</h4>
+                <img class="small_img1" src="{% static 'cinny_daily_movement.png' %}">
+                <img class="small_img2" src="{% static 'cinny_graph.png' %}">
+
+                <h3>Cleo</h3>
+                <h4>Behaviour: {{ cleo_hypothesis }} &nbsp;&nbsp; Average Time Moving: {{ cleo_time }}</h4>
+                <img class="small_img1" src="{% static 'cleo_daily_movement.png' %}">
+                <img class="small_img2" src="{% static 'cleo_graph.png' %}">
+            </div>
         </div>
-        <div class="columns">
+        <div id="column2">
             <h2>Images</h2>
             <h3>Last Picture</h3>
-            <img src="{% static 'recent_pic.jpg' %}">
+            <img class="large_image" src="{% static 'latest_image.jpg' %}">
             <h3>Daily Gif</h3>
-            <!--<img src="{% static 'daily.gif' %}">-->
+            <img class="large_image" src="{% static 'latest_gif.gif' %}">
         </div>
     </div>
 </body>

@@ -2,17 +2,19 @@
 <head>
     <title>Login</title>
     <link rel="icon" type="image/png" href="{% static 'Favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
 </head>
 <body>
-    
+    <div class="form">
     <form method="post" action="{% url 'login' %}">
     {% csrf_token %}
     <h4>Username:</h4>
-    >{{ form.username }}
+    {{ form.username }}
     <h4>Password:</h4>
-    >{{ form.password }}
+    {{ form.password }}
     <div id="button">
         <input type="submit" value="login">
+    </div>
     </div>
     </form>
 </body>

@@ -1,0 +1,8 @@
+numpy
+matplotlib
+pillow
+mysql.connector.python
+scipy
+django
+whitenoise
+python-statemachine

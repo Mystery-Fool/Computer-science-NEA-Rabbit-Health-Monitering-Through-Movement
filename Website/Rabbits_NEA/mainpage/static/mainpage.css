@@ -1,6 +1,7 @@
 #header{
   text-align: center;
 }
+
 #head{
   position: absolute;
   margin: auto;
@@ -13,13 +14,24 @@
   padding-right: 10px;
 }
 
-.columns {
+.column {
   float: left;
-  width: 50%;
+  width: 55%;
   text-align: center;
   margin: auto;
-
 }  
+
+#column2 {
+  float: left;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}  
+
+.row{
+  padding-bottom: 5.5%;
+}
+
 .across{
   clear: both;
   width: 100%;
@@ -29,7 +41,17 @@ img{
   max-width: 90%;
 }
 
+.small_img1{
+  max-width: 60%;
+}
+
+.small_img2{
+  max-width: 35%;
+}
+
 body{
-  background-color: darkgreen;
+  background-image: url("Bunny_backdrop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: azure;
 }
