@@ -99,19 +99,11 @@ class sql_server_handling():
         """
         Time = int(time.strftime("%H", time.localtime()))
         date = datetime.date.today()
-        check = False
         while True:
             if self.__checker(date, datetime.time(Time, 0, 0)):
                 time.sleep(60) # delay to make sure information is finished processing
                 self.__connect()
                 hour = datetime.time(Time, 0, 0)
-                if Time == 0 and check == False:
-                    check = True
-                    Time+=1
-                    continue
-                if Time == 23:
-                    check = False
-                self.__update_hourly_movement(date, hour)
                 if Time == 0:
                     self.days_running += 1
                     self.__update_daily_movement(date)
@@ -120,6 +112,8 @@ class sql_server_handling():
                     if self.days_running > 2:
                         temp_date = date - datetime.timedelta(days=3)
                         self.__remove_images_day(temp_date)
+                    continue
+                self.__update_hourly_movement(date, hour)
                 Time = (Time + 1) % 24
             else:
                 time.sleep(10 * 60) # 10 minutes
