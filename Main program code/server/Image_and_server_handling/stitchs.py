@@ -56,7 +56,7 @@ class my_stitch():
             if len(self.local_queue) != 0:
                 name = self.local_queue.pop(0)
                 name = name[:-4]
-                if len(name) < 18:
+                if len(name) != 19:
                     print(len(name))
                     continue
                 start_time = time.time()

@@ -60,6 +60,10 @@ class sql_server_image_handling():
         Cleo_xyxy = np.split(Cleo_xyxy, 2)
         Cleo_x = (Cleo_xyxy[0][0] + Cleo_xyxy[1][0]) // 2
         Cleo_y = (Cleo_xyxy[0][1] + Cleo_xyxy[1][1]) // 2
+        if 0 <= Cinny_x <= 4922 or 0 <= Cinny_y <= 2110 or 0 <= Cleo_x <= 4922 or 0 <= Cleo_y <= 2110:
+            pass
+        else:
+            raise "Incorrect coordinates from AI"
         date = date.strftime("%Y-%m-%d")
         hour = hour.strftime("%H:%M:%S")
         minutes_seconds = minutes_seconds.strftime("%H:%M:%S")

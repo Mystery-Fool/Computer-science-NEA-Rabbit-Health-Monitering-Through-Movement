@@ -1,6 +1,4 @@
 import cv2
-import numpy as np
-from matplotlib import pyplot as plt
 from stitching.images import Images
 from stitching.feature_detector import FeatureDetector
 from stitching.feature_matcher import FeatureMatcher
@@ -9,7 +7,6 @@ from stitching.camera_estimator import CameraEstimator
 from stitching.camera_adjuster import CameraAdjuster
 from stitching.camera_wave_corrector import WaveCorrector
 from stitching.warper import Warper
-from stitching.cropper import Cropper
 from stitching.seam_finder import SeamFinder
 from stitching.exposure_error_compensator import ExposureErrorCompensator
 from stitching.blender import Blender

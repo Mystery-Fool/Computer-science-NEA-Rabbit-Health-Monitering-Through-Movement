@@ -99,12 +99,15 @@ class sql_server_handling():
         """
         Time = int(time.strftime("%H", time.localtime()))
         date = datetime.date.today()
+        self.flag = False
+        if not(self.__checker(date, datetime.time(0, 0, 0))):
+            self.flag = True
         while True:
             if self.__checker(date, datetime.time(Time, 0, 0)):
                 time.sleep(60) # delay to make sure information is finished processing
                 self.__connect()
                 hour = datetime.time(Time, 0, 0)
-                if Time == 0:
+                if Time == 0 and date!=datetime.date.today():
                     self.days_running += 1
                     self.__update_daily_movement(date)
                     self.__make_gif(date)
@@ -129,6 +132,9 @@ class sql_server_handling():
         Returns:
             bool: True if the processing is completed, False otherwise.
         """
+        if hour == datetime.time(0, 0, 0) and self.flag == True:
+            self.flag = False
+            return True
         self.__connect()
         statement = "SELECT Image_Name FROM Movement WHERE Date=%s AND Hour=%s AND Minutes_Seconds>%s"
         values = (date, hour, datetime.time(0, 59, 0),)
@@ -216,6 +222,14 @@ class sql_server_handling():
             Pet2_X_Coords.append(row[2])
             Pet2_Y_Coords.append(row[3])
         pet1_d, pet1_t, pet2_d, pet2_t = self.__find_distance_and_avg_time(Pet1_X_Coords, Pet1_Y_Coords, Pet2_X_Coords, Pet2_Y_Coords)
+        if pet1_t > 2000000 or pet1_t < 0 or pet2_t > 2000000 or pet2_t < 0:
+            print("Error in time ", date, "  ", hour)
+            Cursor.close()
+            return
+        if pet1_d < 0 or pet2_d < 0:
+            print("Error in distance ", date, "  ", hour)
+            Cursor.close()
+            return
         statement = "INSERT INTO Hourly_Movement (Date, Hour, Avg_Pet1_Time_Moving, Avg_Pet1_Magnitude_Movement_Pixel, Avg_Pet2_Time_Moving, Avg_Pet2_Magnitude_Movement_Pixel) VALUES (%s, %s, %s, %s, %s, %s)"
         values = (date, hour, pet1_t, pet1_d, pet2_t, pet2_d,)
         Cursor.execute(statement, values)
@@ -235,11 +249,17 @@ class sql_server_handling():
         Cursor = self.Connector.cursor()     
         Cursor.execute(statement, value)
         Avg_Pet1_Time_Moving_Day, Avg_Pet1_Magnitude_Movement_Pixel_Day, Avg_Pet2_Time_Moving_Day, Avg_Pet2_Magnitude_Movement_Pixel_Day = 0, 0, 0, 0
+        counter = 0
         for row in Cursor.fetchall():
             Avg_Pet1_Time_Moving_Day += row[0]
             Avg_Pet1_Magnitude_Movement_Pixel_Day += row[1]
             Avg_Pet2_Time_Moving_Day += row[2]
             Avg_Pet2_Magnitude_Movement_Pixel_Day += row[3]
+            counter += 1
+        Avg_Pet1_Time_Moving_Day = Avg_Pet1_Time_Moving_Day // counter 
+        Avg_Pet1_Magnitude_Movement_Pixel_Day = Avg_Pet1_Magnitude_Movement_Pixel_Day // counter
+        Avg_Pet2_Time_Moving_Day = Avg_Pet2_Time_Moving_Day // counter
+        Avg_Pet2_Magnitude_Movement_Pixel_Day = Avg_Pet2_Magnitude_Movement_Pixel_Day //counter
         statement = "INSERT INTO Daily_Movement (Date, Avg_Pet1_Time_Moving, Avg_Pet1_Magnitude_Movement_Pixel, Avg_Pet2_Time_Moving, Avg_Pet2_Magnitude_Movement_Pixel) VALUES (%s, %s, %s, %s, %s)"
         values = (date, Avg_Pet1_Time_Moving_Day, Avg_Pet1_Magnitude_Movement_Pixel_Day, Avg_Pet2_Time_Moving_Day, Avg_Pet2_Magnitude_Movement_Pixel_Day,)
         Cursor.execute(statement, values)
@@ -294,5 +314,14 @@ class sql_server_handling():
         values = (date, hour, )
         Cursor = self.Connector.cursor()
         Cursor.execute(statement, values)
+        self.Connector.commit()
+        Cursor.close()
+    def __remove_images_days(self, date):
+        print(date, hour)
+        statement = "DELETE FROM Daily_Movement WHERE Date = %s"
+        values = (date, hour, )
+        Cursor = self.Connector.cursor()
+        Cursor.execute(statement, values)
+        self.Connector.commit()
         Cursor.close()'''
 

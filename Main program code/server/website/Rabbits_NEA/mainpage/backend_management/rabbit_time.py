@@ -69,27 +69,19 @@ class time_moving():
             tuple: A tuple containing the p-value for Cinny and Cleo.
         """
         cinny, cleo = self.__sql.select_average_time_moving_hypothesis_test()
-        sum_sq_cinny, sum_sq_cleo = 0, 0
         cinny_mean, cleo_mean = 0, 0
         for iterator in range(len(cinny)):
             cinny_mean += int(cinny[iterator])
-            sum_sq_cinny += int(cinny[iterator]) ** 2
             cleo_mean += int(cleo[iterator])
-            sum_sq_cleo += int(cleo[iterator]) ** 2
-        sq_sum_cinny = cinny_mean ** 2
-        sq_sum_cleo = cleo_mean ** 2
-        cinny_mean, cleo_mean = 0, 0
-        for iterator in range(0, 24):
-            cinny_mean += int(cinny[iterator])
-            cleo_mean += int(cleo[iterator])
-        cinny_mean = cinny_mean / 24
-        cleo_mean = cleo_mean / 24
-        cinny_standard_deviation = (((sum_sq_cinny) - (sq_sum_cinny / len(cinny))) / len(cinny)) ** 0.5
-        cleo_standard_deviation = (((sum_sq_cleo) - (sq_sum_cleo / len(cleo))) / len(cleo)) ** 0.5
-        normal_cinny = stats.norm.rvs(loc=cinny_mean, scale=cinny_standard_deviation, size = 1000)
-        normal_cleo = stats.norm.rvs(loc=cleo_mean, scale=cleo_standard_deviation, size = 1000)
-        cinny_p_value = stats.ttest_1samp(normal_cinny, cinny_mean)[1]
-        cleo_p_value = stats.ttest_1samp(normal_cleo, cleo_mean)[1]
+        cinny_mean=cinny_mean/len(cinny)
+        cleo_mean=cleo_mean/len(cleo)
+        cinny_n=[]
+        cleo_n=[]
+        for iterator in range(0,24):
+            cinny_n.append(cinny[iterator])
+            cleo_n.append(cleo[iterator])
+        cinny_p_value = stats.ttest_1samp(cinny_n, cinny_mean)[1]
+        cleo_p_value = stats.ttest_1samp(cleo_n, cleo_mean)[1]
         return cinny_p_value, cleo_p_value
 
     def __warning_level(self, p_value):

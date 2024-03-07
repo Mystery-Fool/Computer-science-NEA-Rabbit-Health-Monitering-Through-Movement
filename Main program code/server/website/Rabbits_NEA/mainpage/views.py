@@ -1,8 +1,8 @@
 from django.http import HttpResponse
 from django.template import loader
-from django.contrib.auth import authenticate, login
 from django.shortcuts import redirect
-from django.contrib.auth import logout
+
+#below all mine
 from mainpage.backend_management.backend_handler import handler
 
 

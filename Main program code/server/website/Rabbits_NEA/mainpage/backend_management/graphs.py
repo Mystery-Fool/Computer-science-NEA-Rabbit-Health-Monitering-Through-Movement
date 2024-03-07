@@ -101,7 +101,7 @@ class create_graphs():
             cinny.append(int(averages[x][0]))
             cleo.append(int(averages[x][1]))
         cinny.reverse()
-        cleo.reverse
+        cleo.reverse()
         self.__line("Movement (pixels)", cinny, [1, 56 / 255, 25 / 255], "cinny_")
         self.__line("Movement (pixels)", cleo, [43 / 255, 1, 156 / 255], "cleo_")
 

@@ -263,14 +263,14 @@ class network():
             Error: The exception that occurred during the socket connection.
         """
         print(Error)
-        '''print("Failed to send")
+        print("Failed to send")
         print("Attempting to reconnect to socket")
         try:
             self.__socket_connect()
             print("Reconnected to socket")
         except Exception as Error:
             print(Error)
-            print("Failed to reconnect to socket")'''
+            print("Failed to reconnect to socket")
 
 class main(camera, network):
     """

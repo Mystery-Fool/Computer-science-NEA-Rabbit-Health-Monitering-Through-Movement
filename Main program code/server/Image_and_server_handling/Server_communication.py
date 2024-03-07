@@ -142,7 +142,6 @@ class Server_Communication():
             return True
         except Exception as Error:
             print(Error)
-            # self.__reconnect(connection, address)
             return False
 
     def __recieve_message(self, connection, address):
@@ -162,8 +161,7 @@ class Server_Communication():
             return data.decode('ascii')
         except Exception as Error:
             print(Error)
-            # self.__reconnect(connection, address)
-            return False
+            return "reconnect"
 
     def __reconnect(self, connection, address):
         """
@@ -197,6 +195,9 @@ class Server_Communication():
                     continue
                 case "":
                     continue
+                case "reconnect":
+                    connection, address = self.__reconnect(connection, address)
+                    continue
                 case _ if past_name == name:
                     self.__send_message(connection, address, "0")
                     continue
@@ -221,6 +222,9 @@ class Server_Communication():
                 case False:
                     continue
                 case "":
+                    continue
+                case "reconnect":
+                    connection, address = self.__reconnect(connection, address)
                     continue
                 case _ if past_name == name:
                     self.__send_message(connection, address, "0")
